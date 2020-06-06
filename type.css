@@ -1,0 +1,143 @@
+.tsc-para-l {
+font-size: 23px;
+font-family: "nta", Arial, sans-serif;
+}
+.tsc-para-s {
+font-size: 15px;
+font-family: "nta", Arial, sans-serif;
+}
+.tsc-para {
+font-size: 18px;
+font-family: "nta", Arial, sans-serif;
+}
+.tsc-para-b {
+font-size: 20px;
+font-family: "nta", Arial, sans-serif;
+}
+.tsc-caption {
+font-size: 19px;
+font-family: "nta", Arial, sans-serif;
+border-width: 5px;
+border-style: solid;
+border-color; #282728;
+padding: 5px;
+font-weight: bold;
+}
+.tsc-article-info {
+font-size: 16px;
+font-family: "nta", Arial, sans-serif;
+line-height: 10px;
+}
+.tsc-navigation {
+font-size: 13px;
+font-family: "nta", Arial, sans-serif;
+link-color: black;
+}
+.tsc-heading-m {
+color:#0b0c0c;
+font-family:"nta", Arial, sans-serif;
+-webkit-font-smoothing:antialiased;
+-moz-osx-font-smoothing:grayscale;
+font-weight:700;
+font-size:18px;
+line-height:1.1111111111;
+display:block;
+margin-top:0;margin-bottom:15px
+}
+.tsc-heading-s {
+color:#0b0c0c;
+font-family:"nta", Arial, sans-serif;
+-webkit-font-smoothing:antialiased;
+-moz-osx-font-smoothing:grayscale;
+font-weight:700;
+font-size:15px;
+line-height:1.1111111111;
+display:block;
+margin-top:0;margin-bottom:15px
+}
+.tsc-heading-b {
+color:#0b0c0c;
+font-family:"nta", Arial, sans-serif;
+-webkit-font-smoothing:antialiased;
+-moz-osx-font-smoothing:grayscale;
+font-weight:700;
+font-size:20px;
+line-height:1.1111111111;
+display:block;
+margin-top:0;margin-bottom:15px
+}
+body {
+  background: transparent;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 1.3157894737;
+  -webkit-font-smoothing: antialiased;
+}
+h1 {
+  margin: 11px 0 0 15px;
+}
+
+h1 a {
+  position: relative;
+  display: block;
+  height: 30px;
+  width: 192px;
+  overflow: hidden;
+}
+
+h1 a img {
+  position: relative;
+  display: block;
+  height: 25px;
+  width: auto;
+}
+@media (max-width: 640px) {
+  body {
+    font-size: 15px;
+  }
+}
+
+h2 {
+  padding-bottom: 30px;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 40px;
+}
+
+h2 strong {
+  display: block;
+  padding-bottom: 10px;
+  font-size: 19px;
+  line-height: 25px;
+}
+
+h2 a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h2 a:hover {
+    text-decoration: underline;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+a {
+  color: #2E3191;
+}
+
+a:hover,
+a:focus {
+  color: #2E8ACA;
+}
+
+a:active {
+  color: #df3034;
+}

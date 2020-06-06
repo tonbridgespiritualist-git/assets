@@ -1,0 +1,45 @@
+html {
+  background: white;
+  color: #0B0C0C;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+}
+
+.inner {
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+@media (min-width: 1px) {
+  .inner {
+    width: auto;
+    max-width: 900px;
+  }
+}
+
+#wrapper {
+  position: relative;
+}
+
+#banner {
+  background: #f1b50f;
+  height: 100px;
+}
+
+#footer {
+  border-top: 1px solid #bfc1c3;
+  margin: 0 15px;
+  padding-top: 10px;
+  max-width: 600px;
+  color: #6f777b;
+}

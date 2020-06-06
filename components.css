@@ -1,0 +1,130 @@
+.information-black {
+    font-family: "nta", Arial, sans-serif;
+    font-weight: bold;
+    text-transform: none;
+    font-size: 18px;
+    line-height: 1.2;
+    padding: 20px;
+    margin-top: 15px;
+    border-width: 5px;
+    border-style: solid;
+	border-color: #282728;
+ 	color: #282728;
+}   
+.information-accent {
+    font-family: "nta", Arial, sans-serif;
+    font-weight: bold;
+    text-transform: none;
+    font-size: 18px;
+    line-height: 1.2;
+    padding: 20px;
+    margin-top: 15px;
+    border-width: 5px;
+    border-style: solid;
+	border-color: #6c585f;
+ 	color: #6c585f;
+}  
+.emergency {
+    font-family: "nta", Arial, sans-serif;
+    font-weight: bold;
+    text-transform: none;
+    font-size: 18px;
+    line-height: 1.2;
+    padding: 20px;
+    margin-top: 15px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #b10e1e;
+    color: #b10e1e;
+}
+.tentative {
+    font-family: "nta", Arial, sans-serif;
+    font-weight: bold;
+    text-transform: none;
+    font-size: 18px;
+    line-height: 1.2;
+    padding: 20px;
+    margin-top: 15px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #cd4c0b;
+    color: #cd4c0b;
+}
+.success {
+    font-family: "nta", Arial, sans-serif;
+    font-weight: bold;
+    text-transform: none;
+    font-size: 18px;
+    line-height: 1.2;
+    padding: 20px;
+    margin-top: 15px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #00823b;
+    color: #00823b;
+}
+.black-banner {
+  padding: 20px;
+  margin-top: 15px;
+  border-width: 5px;
+  border-style: solid;
+  background: #282728;
+  color: #fff;
+  padding: 15px 15px 18px 15px;
+   font-family: "nta", Arial, sans-serif;
+    font-weight: 700;
+    text-transform: none;
+    font-size: 24px;
+    line-height: 1.04167;
+    margin-bottom: 15px;
+}
+.tsc-phase-banner {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #b1b4b6;
+}
+.tsc-phase-banner-text {
+	display: table-cell;
+	vertical-align: baseline;
+}
+.tsc-phase-banner-content {
+    font-family: "nta", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 400;
+    font-size: 14px;
+    font-size: .875rem;
+    line-height: 1.14286;
+    color: #0b0c0c;
+    display: table;
+    margin: 0;
+}
+.tsc-tag {
+	    display: inline-block;
+    outline: 2px solid transparent;
+    outline-offset: -2px;
+    color: #fff;
+    background-color: #6c585f;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "GDS Transport",Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 700;
+    font-size: 14px;
+    font-size: .875rem;
+    line-height: 1;
+    padding-top: 5px;
+    padding-right: 8px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+}
+.tsc-phase-banner-content-tag {
+    margin-right: 10px;
+}
+.tsc-banner-text {
+	font-family: "nta", Arial, sans-serif;
+    text-transform: none;
+    font-size: 18px;
+ }
