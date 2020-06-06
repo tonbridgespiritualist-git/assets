@@ -41,7 +41,8 @@ html {
   margin: 0 15px;
   padding-top: 10px;
   max-width: 600px;
-  color: #6f777b;
+  color: #00000;
+  background-color: #6f777b;
 }
 #worldwide {
   margin: 0 15px;
