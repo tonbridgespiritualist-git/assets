@@ -16,7 +16,7 @@ html {
 
 .inner {
   position: relative;
-  margin: 3 auto;
+  margin: 0 15px;
   overflow: hidden;
 }
 
