@@ -44,6 +44,5 @@ html {
   color: #6f777b;
 }
 #worldwide {
-  padding-left: 100px;
-  padding-right: 100px;
+  margin: 0 15px;
 }
