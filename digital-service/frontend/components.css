@@ -216,3 +216,8 @@ td {
     display: table-cell;
     vertical-align: inherit;
 }
+##Tile##
+.tsc-tile {
+	background-color: #6c585f;
+	padding: 30px;
+}
