@@ -31,6 +31,10 @@ html {
   position: relative;
 }
 
+#detail {
+    margin: 2em 15px;
+    max-width: 600px;
+}
 #banner {
   background: #f1b50f;
   height: 31px;
