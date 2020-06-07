@@ -1,7 +1,14 @@
 .tsc-tile-small {
-font-size: 18px;
-font-family: "nta", Arial, sans-serif;
-  color: #fff;
+color:#fff;
+font-family:"nta", Arial, sans-serif;
+-webkit-font-smoothing:antialiased;
+-moz-osx-font-smoothing:grayscale;
+font-weight:700;
+font-size:18px;
+line-height:1.1111111111;
+display:block;
+margin-top:0;margin-bottom:15px
+}
 }
 .tsc-tile-big {
   color:#fff;
