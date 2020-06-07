@@ -69,3 +69,13 @@
     margin-right: 15px;
     margin-left: 15px;
 }
+.tsc-footer__meta-item--grow {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+.tsc-footer__meta-item {
+    margin-right: 15px;
+    margin-bottom: 25px;
+    margin-left: 15px;
+}
