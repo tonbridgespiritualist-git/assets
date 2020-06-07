@@ -10,7 +10,6 @@
     margin-left: max(15px, calc(15px + env(safe-area-inset-left)));
 }
 .tsc-width-container {
-    max-width: 960px;
     margin-right: 15px;
     margin-left: 15px;
 }
