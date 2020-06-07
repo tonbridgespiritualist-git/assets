@@ -1,5 +1,10 @@
+.tsc-tile-small {
+font-size: 18px;
+font-family: "nta", Arial, sans-serif;
+  color: #fff;
+}
 .tsc-tile-big {
-  color:#0b0c0c;
+  color:#fff;
 font-family:Arial, sans-serif;
 -webkit-font-smoothing:antialiased;
 -moz-osx-font-smoothing:grayscale;
