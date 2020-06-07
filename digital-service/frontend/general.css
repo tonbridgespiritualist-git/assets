@@ -51,3 +51,7 @@ html {
 #worldwide {
   margin: 0 15px;
 }
+@font-face {
+  font-family: Bahnschrift;
+  src: url(https://assets.service.tonbridgespiritualist.com/digital-service/frontend/fonts/Bahnschrift.woff);
+}
