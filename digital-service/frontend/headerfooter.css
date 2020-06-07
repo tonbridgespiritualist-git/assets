@@ -3,6 +3,7 @@
     margin-bottom: -10px;
     padding-top: 10px;
     border-bottom: 10px solid #6c585f;
+    width: 100%;
 }
 .tsc-width-container {
     margin-right: max(15px, calc(15px + env(safe-area-inset-right)));
