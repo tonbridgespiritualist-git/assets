@@ -139,6 +139,10 @@
 .tsc-row {
   display: flex;
 }
+.tsc-one-column {
+  flex: 100%;
+  padding: 5px;
+}
 .tsc-two-column {
   flex: 50%;
   padding: 5px;
