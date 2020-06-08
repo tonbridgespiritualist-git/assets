@@ -311,3 +311,6 @@ button {
     border-color: -internal-light-dark-color(rgb(118, 118, 118), rgb(195, 195, 195));
     border-image: initial;
 }
+.tsc-article-menu {
+	border-top: 1px solid #b1b4b6;
+}
