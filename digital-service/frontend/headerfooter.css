@@ -24,6 +24,7 @@
     border-bottom: 10px solid #fff;
     color: #fff;
     background: #f1b50f;
+    padding 15px;
 }
 .tsc-header__container:after {
     content: "";
