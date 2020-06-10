@@ -1,2 +1,2 @@
 # assets
-See: www.digital.service.tonbridgespiritualist.com/create/assets
+See: assets.service.tonbridgespiritualist.com/files.md
