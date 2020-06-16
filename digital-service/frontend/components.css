@@ -1,19 +1,6 @@
 ##Information Banners##
-.information-black {
-    font-family: "nta", Arial, sans-serif;
-    font-weight: bold;
-    text-transform: none;
-    font-size: 18px;
-    line-height: 1.2;
-    padding: 20px;
-    margin-top: 15px;
-    border-width: 5px;
-    border-style: solid;
-	border-color: #282728;
- 	color: #282728;
-}   
 .information-accent {
-    font-family: "nta", Arial, sans-serif;
+    font-family: Arial, sans-serif;
     font-weight: bold;
     text-transform: none;
     font-size: 18px;
@@ -26,7 +13,7 @@
  	color: #6c585f;
 }  
 .emergency {
-    font-family: "nta", Arial, sans-serif;
+    font-family: Arial, sans-serif;
     font-weight: bold;
     text-transform: none;
     font-size: 18px;
@@ -39,7 +26,7 @@
     color: #b10e1e;
 }
 .tentative {
-    font-family: "nta", Arial, sans-serif;
+    font-family: Arial, sans-serif;
     font-weight: bold;
     text-transform: none;
     font-size: 18px;
@@ -52,7 +39,7 @@
     color: #cd4c0b;
 }
 .success {
-    font-family: "nta", Arial, sans-serif;
+    font-family: Arial, sans-serif;
     font-weight: bold;
     text-transform: none;
     font-size: 18px;
@@ -72,7 +59,7 @@
   background: #282728;
   color: #fff;
   padding: 15px 15px 18px 15px;
-   font-family: "nta", Arial, sans-serif;
+   font-family: Arial, sans-serif;
     font-weight: 700;
     text-transform: none;
     font-size: 24px;
@@ -91,7 +78,7 @@
 	vertical-align: baseline;
 }
 .tsc-phase-banner-content {
-    font-family: "nta", Arial, sans-serif;
+    font-family: Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-weight: 400;
@@ -111,7 +98,7 @@
     letter-spacing: 1px;
     text-decoration: none;
     text-transform: uppercase;
-    font-family: "GDS Transport",Arial,sans-serif;
+    font-family: Arial,sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-weight: 700;
@@ -127,7 +114,7 @@
     margin-right: 10px;
 }
 .tsc-banner-text {
-	font-family: "nta", Arial, sans-serif;
+	font-family: Arial, sans-serif;
     text-transform: none;
     font-size: 18px;
  }
@@ -160,7 +147,7 @@ table {
     border-color: grey;
 }
 .tsc-table {
-    font-family: "GDS Transport",Arial,sans-serif;
+    font-family: Arial,sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-weight: 400;
@@ -227,6 +214,7 @@ td {
 	border-width: 5px;
     border-style: solid;
 	border-color: #54454a;
+	margin: auto;
 }
 ##Button##
 @media (min-width: 40.0625em)
@@ -234,7 +222,7 @@ td {
     width: auto;
 }
 .cognito .c-button {
-	font-family: "GDS Transport",Arial,sans-serif;
+	font-family: Arial,sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-weight: 400;
