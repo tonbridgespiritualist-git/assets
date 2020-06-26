@@ -55,3 +55,10 @@ html {
   font-family: Bahnschrift;
   src: url(https://assets.service.tonbridgespiritualist.com/digital-service/frontend/fonts/Bahnschrift.woff);
 }
+@media print
+{    
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}
