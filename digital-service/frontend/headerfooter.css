@@ -82,3 +82,47 @@
     margin-bottom: 25px;
     margin-left: 15px;
 }
+.tsc-link,.app-prose-scope a{
+    font-family: Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+@media print{
+    .tsc-link,.app-prose-scope a{
+        font-family: sans-serif
+}
+}
+.tsc-link: focus,.app-prose-scope a: focus{
+    outline: 3px solid transparent;
+    color: #0b0c0c;
+    background-color: #fd0;
+    -webkit-box-shadow: 0 -2px #fd0,0 4px #0b0c0c;
+    box-shadow: 0 -2px #fd0,0 4px #0b0c0c;
+    text-decoration: none
+}
+.tsc-link: link,.app-prose-scope a: link{
+    color: #1d70b8
+}
+.tsc-link: visited,.app-prose-scope a: visited{
+    color: #4c2c92
+}
+.tsc-link: hover,.app-prose-scope a: hover{
+    color: #003078
+}
+.tsc-link: active,.app-prose-scope a: active{
+    color: #0b0c0c
+}
+.tsc-link: focus,.app-prose-scope a: focus{
+    color: #0b0c0c
+}
+@media print{
+    .tsc-link[href^="/"]: : after,.app-prose-scope a[href^="/"]: : after,.tsc-link[href^="http: //"]: : after,.app-prose-scope a[href^="http: //"]: : after,.tsc-link[href^="https: //"]: : after,.app-prose-scope a[href^="https: //"]: : after{
+        content: " (" attr(href) ")";
+        font-size: 90%;
+        word-wrap: break-word
+}
+}
+.tsc-link--muted: link,.tsc-link--muted: visited,.tsc-link--muted: hover,.tsc-link--muted: active{
+    color: #626a6e
+}
+.tsc-link--muted: focus{
