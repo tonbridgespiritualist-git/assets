@@ -324,3 +324,9 @@ button {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
+@media (min-width: 40.0625em)
+.tsc-header__link--service-name {
+    font-size: 24px;
+    font-size: 1.5rem;
+    line-height: 1.25;
+}
