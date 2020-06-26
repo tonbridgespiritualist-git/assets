@@ -320,3 +320,7 @@ button {
     text-decoration: none;
     color: #fff;
 }
+.tsc-header__content {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
