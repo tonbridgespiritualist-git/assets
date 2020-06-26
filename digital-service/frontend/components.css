@@ -1,4 +1,3 @@
-##Information Banners##
 .information-accent {
     font-family: Arial, sans-serif;
     font-weight: bold;
@@ -67,7 +66,6 @@
     margin-bottom: 15px;
 }
 
-##Phase Banners##
 .tsc-phase-banner {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -119,7 +117,6 @@
     font-size: 18px;
  }
 
-##Columns##
 * {
   box-sizing: border-box;
 }
@@ -138,7 +135,7 @@
   flex: 33%;
   padding: 5px;
 }
-##Table##
+
 table {
     display: table;
     border-collapse: separate;
@@ -207,7 +204,7 @@ td {
     display: table-cell;
     vertical-align: inherit;
 }
-##Tile##
+
 .tsc-tile {
 	background: #6c585f;
 	padding: 30px;
@@ -216,7 +213,7 @@ td {
 	border-color: #54454a;
 	margin: auto;
 }
-##Button##
+
 @media (min-width: 40.0625em)
 .tsc-button {
     width: auto;
