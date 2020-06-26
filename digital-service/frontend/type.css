@@ -1,6 +1,6 @@
 .tsc-tile-small {
 color:#fff;
-font-family:"nta", Arial, sans-serif;
+font-family:Arial, sans-serif;
 -webkit-font-smoothing:antialiased;
 -moz-osx-font-smoothing:grayscale;
 font-weight:700;
@@ -24,23 +24,23 @@ display:block;
 }
 .tsc-para-l {
 font-size: 20px
-font-family: "nta", Arial, sans-serif;
+font-family: Arial, sans-serif;
 }
 .tsc-para-s {
 font-size: 15px;
-font-family: "nta", Arial, sans-serif;
+font-family: Arial, sans-serif;
 }
 .tsc-para {
 font-size: 18px;
-font-family: "nta", Arial, sans-serif;
+font-family: Arial, sans-serif;
 }
 .tsc-para-b {
 font-size: 22x;
-font-family: "nta", Arial, sans-serif;
+font-family: Arial, sans-serif;
 }
 .tsc-caption {
 font-size: 19px;
-font-family: "nta", Arial, sans-serif;
+font-family: Arial, sans-serif;
 border-width: 5px;
 border-style: solid;
 border-color; #282728;
@@ -49,17 +49,17 @@ font-weight: bold;
 }
 .tsc-article-info {
 font-size: 16px;
-font-family: "nta", Arial, sans-serif;
+font-family: Arial, sans-serif;
 line-height: 10px;
 }
 .tsc-navigation {
 font-size: 13px;
-font-family: "nta", Arial, sans-serif;
+font-family: Arial, sans-serif;
 link-color: black;
 }
 .tsc-heading-m {
 color:#0b0c0c;
-font-family:"nta", Arial, sans-serif;
+font-family: Arial, sans-serif;
 -webkit-font-smoothing:antialiased;
 -moz-osx-font-smoothing:grayscale;
 font-weight:700;
@@ -70,7 +70,7 @@ margin-top:0;margin-bottom:15px
 }
 .tsc-heading-s {
 color:#0b0c0c;
-font-family:"nta", Arial, sans-serif;
+font-family: Arial, sans-serif;
 -webkit-font-smoothing:antialiased;
 -moz-osx-font-smoothing:grayscale;
 font-weight:700;
@@ -92,7 +92,7 @@ margin-top:0;margin-bottom:15px
 }
 body {
   background: transparent;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 19px;
   font-weight: 400;
   line-height: 1.3157894737;
