@@ -1,3 +1,25 @@
+.tsc-caption-l {
+    font-family: Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 400;
+    font-size: 18px;
+    font-size: 1.125rem;
+    line-height: 1.11111;
+    display: block;
+    margin-bottom: 5px;
+    color: #626a6e;
+}
+@media (min-width: 40.0625em)
+.tsc-caption-l {
+    font-size: 24px;
+    font-size: 1.5rem;
+    line-height: 1.25;
+}
+@media (min-width: 40.0625em)
+.tsc-caption-l {
+    margin-bottom: 0;
+}
 .tsc-tile-small {
 color:#fff;
 font-family:Arial, sans-serif;
