@@ -12,7 +12,7 @@
 	text-decoration: none
 }
 .tsc-link: link,.app-prose-scope a: link{
-	color: #f1b50f
+	color: #6c585f
 }
 .tsc-link: visited,.app-prose-scope a: visited{
 	color: #4c2c92
@@ -48,10 +48,10 @@
 }
 }
 .tsc-link--no-visited-state: link{
-	color: #f1b50f
+	color: #6c585f
 }
 .tsc-link--no-visited-state: visited{
-	color: #f1b50f
+	color: #6c585f
 }
 .tsc-link--no-visited-state: hover{
 	color: #003078
@@ -984,7 +984,7 @@
 	margin: 0;
 	padding: 0;
 	border-width: 0;
-	color: #f1b50f;
+	color: #6c585f;
 	background: none;
 	cursor: pointer;
 	-webkit-appearance: none;
@@ -1024,7 +1024,7 @@
 	text-decoration: none
 }
 .js-enabled .tsc-accordion__open-all: link{
-	color: #f1b50f
+	color: #6c585f
 }
 .js-enabled .tsc-accordion__open-all: visited{
 	color: #4c2c92
@@ -1046,14 +1046,14 @@
 	position: relative;
 	padding-right: 40px;
 	border-top: 1px solid #b1b4b6;
-	color: #f1b50f;
+	color: #6c585f;
 	cursor: pointer
 }
 @media (hover: none){
 	.js-enabled .tsc-accordion__section-header: hover{
-		border-top-color: #f1b50f;
-		-webkit-box-shadow: inset 0 3px 0 0 #f1b50f;
-		box-shadow: inset 0 3px 0 0 #f1b50f
+		border-top-color: #6c585f;
+		-webkit-box-shadow: inset 0 3px 0 0 #6c585f;
+		box-shadow: inset 0 3px 0 0 #6c585f
 }
 }
 .js-enabled .tsc-accordion__section-button{
@@ -2473,7 +2473,7 @@
 	position: relative;
 	margin-bottom: 5px;
 	padding-left: 25px;
-	color: #f1b50f;
+	color: #6c585f;
 	cursor: pointer
 }
 .tsc-details__summary: hover{
@@ -2968,7 +2968,7 @@
 }
 .tsc-header__container--full-width{
 	padding: 0 15px;
-	border-color: #f1b50f
+	border-color: #6c585f
 }
 .tsc-header__container--full-width .tsc-header__menu-button{
 	right: 15px
@@ -2977,7 +2977,7 @@
 	position: relative;
 	margin-bottom: -10px;
 	padding-top: 10px;
-	border-bottom: 10px solid #f1b50f
+	border-bottom: 10px solid #6c585f
 }
 .tsc-header__container: after{
 	content: "";
@@ -3471,7 +3471,7 @@
 	outline: 2px solid transparent;
 	outline-offset: -2px;
 	color: #fff;
-	background-color: #f1b50f;
+	background-color: #6c585f;
 	letter-spacing: 1px;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -3694,7 +3694,7 @@
 	margin-bottom: 10px
 }
 .tsc-tabs__tab: link{
-	color: #f1b50f
+	color: #6c585f
 }
 .tsc-tabs__tab: visited{
 	color: #4c2c92
@@ -4082,7 +4082,7 @@
 }
 .tsc-select option: active,.tsc-select option: checked,.tsc-select: focus: : -ms-value{
 	color: #fff;
-	background-color: #f1b50f
+	background-color: #6c585f
 }
 .tsc-select--error{
 	border: 4px solid #d4351c
@@ -5433,7 +5433,7 @@
 .app-contact-panel{
 	margin-top: 40px;
 	padding-top: 15px;
-	border-top: 2px solid #f1b50f
+	border-top: 2px solid #6c585f
 }
 @media (min-width: 40.0625em){
 	.app-contact-panel{
@@ -5598,7 +5598,7 @@
 	position: relative
 }
 .app-header{
-	border-bottom: 10px solid #f1b50f
+	border-bottom: 10px solid #6c585f
 }
 .app-header__container{
 	margin-bottom: 0;
@@ -5711,13 +5711,13 @@
 	font-weight: bold
 }
 .app-button--inverted,.app-button--inverted: link,.app-button--inverted: visited{
-	color: #f1b50f;
+	color: #6c585f;
 	background-color: #fff;
 	-webkit-box-shadow: 0 2px 0 #144e81;
 	box-shadow: 0 2px 0 #144e81
 }
 .app-button--inverted: hover{
-	color: #f1b50f;
+	color: #6c585f;
 	background-color: #e8f1f8
 }
 .app-button--inverted: focus: not(: hover){
@@ -5726,7 +5726,7 @@
 }
 .app-button--inverted: active,.app-button--inverted: focus{
 	border-color: #fd0;
-	color: #f1b50f;
+	color: #6c585f;
 	background-color: #e8f1f8;
 	-webkit-box-shadow: inset 0 0 0 2px #fd0;
 	box-shadow: inset 0 0 0 2px #fd0
@@ -5735,7 +5735,7 @@
 	padding-top: 20px;
 	padding-bottom: 20px;
 	color: #fff;
-	background-color: #f1b50f
+	background-color: #6c585f
 }
 @media (min-width: 40.0625em){
 	.app-masthead{
@@ -5817,7 +5817,7 @@
 	font-size: 1.1875rem
 }
 .app-mobile-nav-subnav-toggler__link: not(: focus): hover{
-	color: #f1b50f
+	color: #6c585f
 }
 .app-mobile-nav-subnav-toggler__link,.app-mobile-nav__link{
 	text-decoration: none
@@ -5847,7 +5847,7 @@
 }
 .app-mobile-nav__subnav-item--current{
 	padding-left: 16px;
-	border-left: 4px solid #f1b50f
+	border-left: 4px solid #6c585f
 }
 .app-mobile-nav__theme{
 	font-family: Arial,sans-serif;
@@ -5919,17 +5919,17 @@
 	line-height: 50px
 }
 .app-navigation__list-item--current{
-	border-bottom: 4px solid #f1b50f
+	border-bottom: 4px solid #6c585f
 }
 .app-navigation__link{
 	font-weight: 700;
 	text-decoration: none
 }
 .app-navigation__link: not(: focus): visited{
-	color: #f1b50f
+	color: #6c585f
 }
 .app-navigation__link: not(: focus): hover{
-	color: #f1b50f;
+	color: #6c585f;
 	text-decoration: underline
 }
 .app-navigation__link: after{
@@ -6255,11 +6255,11 @@
 	background-color: #fafafa
 }
 .app-site-search__option--focused,.app-site-search__option: hover{
-	border-color: #f1b50f;
+	border-color: #6c585f;
 	outline: 3px solid transparent;
 	outline-offset: -3px;
 	color: #fff;
-	background-color: #f1b50f
+	background-color: #6c585f
 }
 .app-site-search__option--focused .app-site-search--section,.app-site-search__option: hover .app-site-search--section{
 	color: inherit
@@ -6391,7 +6391,7 @@
 	text-decoration: none
 }
 .app-subnav__link: not(: focus): hover{
-	color: #f1b50f;
+	color: #6c585f;
 	text-decoration: underline
 }
 .app-subnav__section-item{
@@ -6402,7 +6402,7 @@
 .app-subnav__section-item--current{
 	margin-left: -14px;
 	padding-left: 10px;
-	border-left: 4px solid #f1b50f;
+	border-left: 4px solid #6c585f;
 	background-color: #fff
 }
 .app-subnav__section-item--current .app-subnav__link{
@@ -6503,7 +6503,7 @@
 	display: block
 }
 .app-prose-scope .app-tabs__item a: visited{
-	color: #f1b50f
+	color: #6c585f
 }
 .app-prose-scope .app-tabs__item a: focus{
 	color: #0b0c0c
@@ -6558,7 +6558,7 @@
 	left: 0
 }
 .app-prose-scope .app-tabs__heading a: visited{
-	color: #f1b50f
+	color: #6c585f
 }
 .app-prose-scope .app-tabs__heading a: focus{
 	color: #0b0c0c
