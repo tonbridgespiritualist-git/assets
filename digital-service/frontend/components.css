@@ -135,7 +135,11 @@
   flex: 33%;
   padding: 5px;
 }
-
+@media (min-width: 40.0625em)
+.tsc-two-column
+.tsc-three-column {
+    flex:100%;
+}
 table {
     display: table;
     border-collapse: separate;
