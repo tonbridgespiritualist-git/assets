@@ -206,13 +206,16 @@ display:block;
 margin-top:0;
 margin-bottom:15px;
 }
+
+/*Document*/
 .tsc-doctype {
 padding: 3px;
 background-color: #B10E1E;
 font-family: "Interstate",Arial,sans-serif;
 color: #fff;
 }
-.tsc-docttitle {
+.tsc-doctitle {
   font-family: "Interstate",Arial,sans-serif;
   font-size:18px;
+  link-color: #141414
 }
