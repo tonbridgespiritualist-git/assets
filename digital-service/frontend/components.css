@@ -365,8 +365,6 @@ button {
 
 /*Document*/
 .tsc-document {
-border-left: 3px solid #6c585f;
 background-color: #dee0e2;
 padding: 6px;
-padding-left: 12px;
 }
