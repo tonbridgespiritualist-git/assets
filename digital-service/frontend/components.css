@@ -1,5 +1,11 @@
-.information-accent {
-    font-family: Arial, sans-serif;
+/*Uncategorised*/
+* {
+  box-sizing: border-box;
+}
+
+/*Information Banners*/
+.information {
+    font-family: "Interstate",Arial, sans-serif;
     font-weight: bold;
     text-transform: none;
     font-size: 18px;
@@ -12,7 +18,7 @@
  	color: #6c585f;
 }  
 .emergency {
-    font-family: Arial, sans-serif;
+    font-family: "Interstate",Arial, sans-serif;
     font-weight: bold;
     text-transform: none;
     font-size: 18px;
@@ -25,7 +31,7 @@
     color: #b10e1e;
 }
 .tentative {
-    font-family: Arial, sans-serif;
+    font-family: "Interstate",Arial, sans-serif;
     font-weight: bold;
     text-transform: none;
     font-size: 18px;
@@ -38,7 +44,7 @@
     color: #cd4c0b;
 }
 .success {
-    font-family: Arial, sans-serif;
+    font-family: "Interstate",Arial, sans-serif;
     font-weight: bold;
     text-transform: none;
     font-size: 18px;
@@ -58,7 +64,7 @@
   background: #282728;
   color: #fff;
   padding: 15px 15px 18px 15px;
-   font-family: Arial, sans-serif;
+   font-family: "Interstate",Arial, sans-serif;
     font-weight: 700;
     text-transform: none;
     font-size: 24px;
@@ -66,6 +72,7 @@
     margin-bottom: 15px;
 }
 
+/*Phase Banner*/
 .tsc-phase-banner {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -76,19 +83,17 @@
 	vertical-align: baseline;
 }
 .tsc-phase-banner-content {
-    font-family: Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    font-family: "Mytupi",Arial, sans-serif;
     font-weight: 400;
     font-size: 14px;
     font-size: .875rem;
     line-height: 1.14286;
-    color: #0b0c0c;
+    color: #141414;
     display: table;
     margin: 0;
 }
 .tsc-tag {
-	    display: inline-block;
+    display: inline-block;
     outline: 2px solid transparent;
     outline-offset: -2px;
     color: #fff;
@@ -96,9 +101,7 @@
     letter-spacing: 1px;
     text-decoration: none;
     text-transform: uppercase;
-    font-family: Arial,sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    font-family: "Mytupi",Arial,sans-serif;
     font-weight: 700;
     font-size: 14px;
     font-size: .875rem;
@@ -112,14 +115,12 @@
     margin-right: 10px;
 }
 .tsc-banner-text {
-	font-family: Arial, sans-serif;
+	font-family: "Mytupi",Arial, sans-serif;
     text-transform: none;
     font-size: 18px;
  }
 
-* {
-  box-sizing: border-box;
-}
+/*Row and Columns*/
 .tsc-row {
   display: flex;
 }
@@ -136,10 +137,15 @@
   padding: 5px;
 }
 @media (min-width: 40.0625em)
-.tsc-two-column
+.tsc-two-column {
+    flex:100%;
+}
+@media (min-width: 40.0625em)
 .tsc-three-column {
     flex:100%;
 }
+
+/*Table*/
 table {
     display: table;
     border-collapse: separate;
@@ -148,14 +154,12 @@ table {
     border-color: grey;
 }
 .tsc-table {
-    font-family: Arial,sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    font-family: "Mytupi",Arial,sans-serif;
     font-weight: 400;
     font-size: 16px;
     font-size: 1rem;
     line-height: 1.25;
-    color: #0b0c0c;
+    color: #141414;
     width: 100%;
     margin-bottom: 20px;
     border-spacing: 0;
@@ -180,6 +184,7 @@ thead {
     display: table-header-group;
     vertical-align: middle;
     border-color: inherit;
+    font-family:"Interstate",Arial,sans-serif;
 }
 tr {
     display: table-row;
@@ -209,28 +214,58 @@ td {
     vertical-align: inherit;
 }
 
-.tsc-tile {
-	background: #6c585f;
-	padding: 30px;
-	border-width: 5px;
-    border-style: solid;
-	border-color: #54454a;
-	margin: auto;
+/*Panel*/
+.tsc-panel--confirmation {
+    color: #fff;
+    background: #00823b;
 }
+.tsc-panel--general {
+    color: #fff;
+    background: #6c585f;
+}
+@media (max-width: 40.0525em)
+.tsc-panel {
+    padding: 25px;
+}
+.tsc-panel {
+    font-family: "Interstate",Arial,sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 1.25;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    padding: 35px;
+    border: 5px solid transparent;
+    text-align: center;
+}
+.tsc-panel__title {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-family: "Interstate",Arial,sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    font-size: 2rem;
+    line-height: 1.09375;
+}
+.tsc-panel__body {
+    font-family: "Interstate",Arial,sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    font-size: 1.5rem;
+    line-height: 1.04167;
 
+/*Button*/
 @media (min-width: 40.0625em)
 .tsc-button {
     width: auto;
 }
-.cognito .c-button {
-	font-family: Arial,sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+.cognito .c-button .tsc-button {
+    font-family: "Interstate",Arial,sans-serif;
     font-weight: 400;
     font-size: 16px;
     font-size: 1rem;
     line-height: 1.1875;
-    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     display: inline-block;
     position: relative;
@@ -242,22 +277,17 @@ td {
     border-radius: 0;
     color: #fff;
     background-color: #00703c;
-    -webkit-box-shadow: 0 2px 0 #002d18;
     box-shadow: 0 2px 0 #002d18;
     text-align: center;
     vertical-align: top;
     cursor: pointer;
-    -webkit-appearance: none;
 }
 .tsc-button {
-    font-family: "GDS Transport",Arial,sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    font-family: "Interstate",Arial,sans-serif;
     font-weight: 400;
     font-size: 16px;
     font-size: 1rem;
     line-height: 1.1875;
-    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     display: inline-block;
     position: relative;
@@ -269,16 +299,12 @@ td {
     border-radius: 0;
     color: #fff;
     background-color: #00703c;
-    -webkit-box-shadow: 0 2px 0 #002d18;
     box-shadow: 0 2px 0 #002d18;
     text-align: center;
     vertical-align: top;
     cursor: pointer;
-    -webkit-appearance: none;
 }
 button {
-    -webkit-appearance: button;
-    -webkit-writing-mode: horizontal-tb !important;
     text-rendering: auto;
     color: -internal-light-dark-color(buttontext, rgb(170, 170, 170));
     letter-spacing: normal;
@@ -300,37 +326,38 @@ button {
     border-color: -internal-light-dark-color(rgb(118, 118, 118), rgb(195, 195, 195));
     border-image: initial;
 }
-.tsc-header__link--service-name {
-    display: inline-block;
-    margin-bottom: 10px;
-    font-family: Arial,sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+
+/*Warning*/
+.tsc-warning-text {
+    position: relative;
+    margin-bottom: 20px;
+    padding: 10px 0;
+}
+.tsc-warning-text__icon {
+    font-family: "Interstate",Arial,sans-serif;
     font-weight: 700;
-    font-size: 18px;
-    font-size: 1.125rem;
-    line-height: 1.11111;
-}
-.tsc-article-menu {
-	border-top: 1px solid #b1b4b6;
-	padding-top: 15px;
-}
-.tsc-blockquote {
-	padding-left: 10px;
-	border-left: 2px solid #6c585f;
-	padding-bottom: 10px;
-}
-.tsc-header__link {
-    text-decoration: none;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    min-width: 29px;
+    min-height: 29px;
+    margin-top: -7px;
+    border: 3px solid #141414;
+    border-radius: 50%;
     color: #fff;
+    background: #141414;
+    font-size: 30px;
+    line-height: 29px;
+    text-align: center;
+    user-select: none;
 }
-.tsc-header__content {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
-@media (min-width: 40.0625em)
-.tsc-header__link--service-name {
-    font-size: 24px;
-    font-size: 1.5rem;
+.tsc-warning-text__text {
+    font-family: "Interstate",Arial,sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    font-size: 1rem;
     line-height: 1.25;
+    color: #141414;
+    display: block;
+    padding-left: 45px;
 }
