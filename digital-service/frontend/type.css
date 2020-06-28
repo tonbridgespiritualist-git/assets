@@ -206,6 +206,8 @@ margin-top:0;
 margin-bottom:15px;
 }
 .tsc-doctype {
-padding: 2px;
+padding: 3px;
 background-color: #B10E1E;
+font-family: "Interstate",Arial,sans-serif;
+color: #fff;
 }
