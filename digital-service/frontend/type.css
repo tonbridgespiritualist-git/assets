@@ -1,8 +1,4 @@
 /*Import fonts*/
-@font-face {
-  font-family: Mytupi;
-  src: url(https://assets.service.tonbridgespirirtualist.com/digital-service/frontend/fonts/Mytupi.woff);
-}
 @import url("https://p.typekit.net/p.css?s=1&k=ijf0nsq&ht=tk&f=31141.31142.31145.31146.31154.31156.31162.31163.31166.31167&a=44100770&app=typekit&e=css");
 
 @font-face {
@@ -32,7 +28,7 @@ font-display:auto;font-style:italic;font-weight:700;
 /*Basic*/
 body {
 background: transparent;
-font-family: "Mytupi", Arial, sans-serif;
+font-family: "Interstate", Arial, sans-serif;
 font-size: 19px;
 font-weight: 400;
 line-height: 1.3157894737;
@@ -119,7 +115,7 @@ color: #df3034;
 /*Tile*/
 .tsc-tile-small {
 color:#fff;
-font-family:"Mytupi", Arial, sans-serif
+font-family:"Interstate", Arial, sans-serif
 font-weight:700;
 font-size:18px;
 line-height:1.1111111111;
@@ -131,7 +127,7 @@ margin-top:0;margin-bottom:15px
 }
 .tsc-tile-big {
 color:#fff;
-font-family:"Mytupi", Arial, sans-serif;
+font-family:"Interstate", Arial, sans-serif;
 font-weight:700;
 font-size:40px;
 display:block;
@@ -141,28 +137,28 @@ padding-bottom: 0px;
 /*Paragraphs*/
 .tsc-para-leading {
 font-size: 20px
-font-family: "Mytupi", Arial, sans-serif;
+font-family: "Interstate", Arial, sans-serif;
 color: #141414;
 }
 .tsc-para-small {
 font-size: 15px;
-font-family: "Mytupi", Arial, sans-serif;
+font-family: "Interstate", Arial, sans-serif;
 color: #141414;
 }
 .tsc-para {
 font-size: 18px;
-font-family: "Mytupi", Arial, sans-serif;
+font-family: "Interstate", Arial, sans-serif;
 color: #141414;
 }
 .tsc-para-large {
 font-size: 22px;
-font-family: "Mytupi", Arial, sans-serif;
+font-family: "Interstate", Arial, sans-serif;
 color: #141414;
 }
 .tsc-img-caption {
 font-size: 14px;
 color: #141414;
-font-family: "Mytupi", Arial, sans-serif;
+font-family: "Interstate", Arial, sans-serif;
 border-left: 3px solid #6c585f;
 background-color: #dee0e2;
 padding: 6px;
@@ -170,7 +166,7 @@ padding: 6px;
 .tsc-blockquote {
 font-size: 14px;
 color: #141414;
-font-family: "Mytupi", Arial, sans-serif;
+font-family: "Interstate", Arial, sans-serif;
 border-left: 3px solid #6c585f;
 background-color: #dee0e2;
 padding: 6px;
@@ -180,16 +176,16 @@ padding-left: 12px;
 /*Random Typography*/
 .tsc-metadata {
 font-size: 16px;
-font-family: "Mytupi", Arial, sans-serif;
+font-family: "Interstate", Arial, sans-serif;
 color:#141414;
 }
 .tsc-navigation {
 font-size: 13px;
-font-family: "Mytupi", Arial, sans-serif;
+font-family: "Interstate", Arial, sans-serif;
 link-color: #141414;
 }
 .tsc-link {
-font-family: "Mytupi", Arial, sans-serif;
+font-family: "Interstate", Arial, sans-serif;
 link-color: #141414;
 }
 
@@ -206,7 +202,7 @@ margin-bottom:5px;
 }
 .tsc-heading {
 color:#141414;
-font-family: "Mytupi", Arial, sans-serif;
+font-family: "Interstate", Arial, sans-serif;
 font-weight:700;
 font-size:18px;
 line-height:1.1111111111;
@@ -216,7 +212,7 @@ margin-bottom:15px;
 }
 .tsc-heading-small {
 color:#141414;
-font-family: "Mytupi", Arial, sans-serif;
+font-family: "Interstate", Arial, sans-serif;
 font-weight:700;
 font-size:15px;
 line-height:1.1111111111;
