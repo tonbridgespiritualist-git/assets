@@ -255,7 +255,7 @@ td {
     font-size: 1.5rem;
 margin-bottom: 10px;
     line-height: 1.04167;
-
+}
 /*Button*/
 @media (min-width: 40.0625em)
 .tsc-button {
@@ -409,3 +409,5 @@ input {
     border-color: -internal-light-dark-color(rgb(118, 118, 118), rgb(195, 195, 195));
     border-image: initial;
 }
+fieldset {
+   border:0 none;

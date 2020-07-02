@@ -51,14 +51,21 @@ html {
 #worldwide {
   margin: 0 15px;
 }
-@font-face {
-  font-family: Bahnschrift;
-  src: url(https://assets.service.tonbridgespiritualist.com/digital-service/frontend/fonts/Bahnschrift.woff);
-}
-@media print
-{    
-    .no-print, .no-print *
-    {
-        display: none !important;
+html, body {
+        height: auto;
+        font-size: 12pt;
+color: #141414;
+font-family: Arial,sans-serif;
     }
+.tsc-heading-large {
+font-family: "Interstate", Arial, sans-serif;
+font-size: 15px;
+color: #141414;
+}
+.tsc-caption-l {
+margin-bottom: -8px;
+font-family: "Interstate", Arial, sans-serif;
+font-size: 12px;
+color:#626a6e;
+}
 }
