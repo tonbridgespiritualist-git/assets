@@ -396,3 +396,6 @@ padding: 6px;
     cursor: pointer;
     -webkit-appearance: none;
 }
+fieldset {
+   border:0 none;
+}
