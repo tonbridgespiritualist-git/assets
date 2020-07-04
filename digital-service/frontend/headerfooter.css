@@ -32,6 +32,9 @@
     padding-top: 10px;
     margin-top: -10px;
 }
+.tsc-header-sub a {
+    color:#fff;
+}
 .tsc-header__container:after {
     content: "";
     display: block;
