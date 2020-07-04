@@ -31,6 +31,7 @@
     padding-left: 15px;
     padding-bottom: 10px;
     padding-top: 10px;
+    margin-top: -9px;
 }
 .tsc-header__container:after {
     content: "";
