@@ -2,6 +2,9 @@
 * {
   box-sizing: border-box;
 }
+.tab {
+  display: none;
+}
 
 /*Information Banners*/
 .information {
