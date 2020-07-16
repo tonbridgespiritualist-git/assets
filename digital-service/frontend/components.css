@@ -450,3 +450,14 @@ fieldset {
     display: block;
     margin-bottom: 5px;
 }
+/* Coronavirus Toppers*/
+.covid-dark {
+	background-color: #000;
+	color: #fff;
+	padding: 25px 0;
+}
+.covid-light {
+	background-color:  #272828;
+	color: #fff;
+	padding: 25px 0;
+}
