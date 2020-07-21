@@ -467,3 +467,31 @@ fieldset {
 	color: #fff;
 	padding: 25px 0;
 }
+/*Coronavirus Global Bar */
+.tsc-width-container {
+    margin-right: max(15px, calc(15px + env(safe-area-inset-right)));
+    margin-left: max(15px, calc(15px + env(safe-area-inset-left)));
+}
+.tsc-width-container {
+    max-width: 960px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.global-bar-message {
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 20px 0;
+}
+.show-global-bar .global-bar {
+    display: block;
+}
+.global-bar {
+    font-family: "Interstate", Arial, sans-serif;
+    font-weight: 400;
+    text-transform: none;
+    font-size: 16px;
+    line-height: 1.25;
+    background-color: #0b0c0c;
+    border-bottom: 1px solid #ffffff;
+    display: none;
+}
