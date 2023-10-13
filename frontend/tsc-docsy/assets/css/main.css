@@ -1,8 +1,3 @@
----
-layout: null
-excluded_in_search: true
----
-
 @import url("https://use.typekit.net/new8wet.css");
 @import "https://fonts.googleapis.com/css?family=Public+Sans:300,300i,400,400i,700,700i";
 @fa-font-path: "../webfonts";
@@ -113,7 +108,7 @@ excluded_in_search: true
     --white: #fff;
     --gray: #888;
     --gray-dark: #333;
-    --primary: {{ site.color }};
+    --primary: #5FBFF9;
     --secondary: #D95040;
     --success: #3772FF;
     --info: #C0E0DE;
@@ -3042,8 +3037,8 @@ fieldset:disabled a.btn {
 
 .btn-primary:hover {
     color: #fff;
-    background-color: {{ site.color }};
-    border-color: {{ site.color }};
+    background-color: #5FBFF9;
+    border-color: #5FBFF9;
 }
 
 .btn-primary:focus,
@@ -3055,8 +3050,8 @@ fieldset:disabled a.btn {
 .btn-primary.disabled,
 .btn-primary:disabled {
     color: #fff;
-    background-color: {{ site.color }};
-    border-color: {{ site.color }}
+    background-color: #5FBFF9;
+    border-color: #5FBFF9
 }
 
 .btn-primary:not(:disabled):not(.disabled):active,
@@ -3082,8 +3077,8 @@ fieldset:disabled a.btn {
 
 .btn-secondary:hover {
     color: #fff;
-    background-color: {{ site.color }};
-    border-color: {{ site.color }};
+    background-color: #5FBFF9;
+    border-color: #5FBFF9;
 }
 
 .btn-secondary:focus,
@@ -3123,8 +3118,8 @@ fieldset:disabled a.btn {
 
 .btn-success:hover {
     color: #fff;
-    background-color: {{ site.color }};
-    border-color: {{ site.color }};
+    background-color: #5FBFF9;
+    border-color: #5FBFF9;
 }
 
 .btn-success:focus,
@@ -3163,8 +3158,8 @@ fieldset:disabled a.btn {
 
 .btn-info:hover {
     color: #fff;
-    background-color: {{ site.color }};
-    border-color: {{ site.color }};
+    background-color: #5FBFF9;
+    border-color: #5FBFF9;
 }
 
 .btn-info:focus,
@@ -3203,8 +3198,8 @@ fieldset:disabled a.btn {
 
 .btn-warning:hover {
     color: #fff;
-    background-color: {{ site.color }};
-    border-color: {{ site.color }};
+    background-color: #5FBFF9;
+    border-color: #5FBFF9;
 }
 
 .btn-warning:focus,
@@ -3243,8 +3238,8 @@ fieldset:disabled a.btn {
 
 .btn-danger:hover {
     color: #fff;
-    background-color: {{ site.color }};
-    border-color: {{ site.color }};
+    background-color: #5FBFF9;
+    border-color: #5FBFF9;
 }
 
 .btn-danger:focus,
@@ -3375,16 +3370,16 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary {
-    color: {{ site.color }};
+    color: #5FBFF9;
     background-color: transparent;
     background-image: none;
-    border-color: {{ site.color }}
+    border-color: #5FBFF9
 }
 
 .btn-outline-primary:hover {
     color: #fff;
-    background-color: {{ site.color }};
-    border-color: {{ site.color }}
+    background-color: #5FBFF9;
+    border-color: #5FBFF9
 }
 
 .btn-outline-primary:focus,
@@ -3395,7 +3390,7 @@ fieldset:disabled a.btn {
 
 .btn-outline-primary.disabled,
 .btn-outline-primary:disabled {
-    color: {{ site.color }};
+    color: #5FBFF9;
     background-color: transparent
 }
 
@@ -3403,8 +3398,8 @@ fieldset:disabled a.btn {
 .btn-outline-primary:not(:disabled):not(.disabled).active,
 .show>.btn-outline-primary.dropdown-toggle {
     color: #fff;
-    background-color: {{ site.color }};
-    border-color: {{ site.color }}
+    background-color: #5FBFF9;
+    border-color: #5FBFF9
 }
 
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus,
@@ -3978,10 +3973,10 @@ input[type=button].btn-block {
 .dropdown-item:active {
     color: #fff;
     text-decoration: none;
-    background: {{ site.color }} -webkit-gradient(linear, left top, left bottom, from(#4f7a9f), to({{ site.color }})) repeat-x;
-    background: {{ site.color }} -webkit-linear-gradient(top, #4f7a9f, {{ site.color }}) repeat-x;
-    background: {{ site.color }} -o-linear-gradient(top, #4f7a9f, {{ site.color }}) repeat-x;
-    background: {{ site.color }} linear-gradient(180deg, #4f7a9f, {{ site.color }}) repeat-x
+    background: #5FBFF9 -webkit-gradient(linear, left top, left bottom, from(#4f7a9f), to(#5FBFF9)) repeat-x;
+    background: #5FBFF9 -webkit-linear-gradient(top, #4f7a9f, #5FBFF9) repeat-x;
+    background: #5FBFF9 -o-linear-gradient(top, #4f7a9f, #5FBFF9) repeat-x;
+    background: #5FBFF9 linear-gradient(180deg, #4f7a9f, #5FBFF9) repeat-x
 }
 
 .dropdown-item.disabled,
@@ -4393,10 +4388,10 @@ input[type=button].btn-block {
 
 .custom-control-input:checked~.custom-control-label::before {
     color: #fff;
-    background: {{ site.color }} -webkit-gradient(linear, left top, left bottom, from(#4f7a9f), to({{ site.color }})) repeat-x;
-    background: {{ site.color }} -webkit-linear-gradient(top, #4f7a9f, {{ site.color }}) repeat-x;
-    background: {{ site.color }} -o-linear-gradient(top, #4f7a9f, {{ site.color }}) repeat-x;
-    background: {{ site.color }} linear-gradient(180deg, #4f7a9f, {{ site.color }}) repeat-x;
+    background: #5FBFF9 -webkit-gradient(linear, left top, left bottom, from(#4f7a9f), to(#5FBFF9)) repeat-x;
+    background: #5FBFF9 -webkit-linear-gradient(top, #4f7a9f, #5FBFF9) repeat-x;
+    background: #5FBFF9 -o-linear-gradient(top, #4f7a9f, #5FBFF9) repeat-x;
+    background: #5FBFF9 linear-gradient(180deg, #4f7a9f, #5FBFF9) repeat-x;
     -webkit-box-shadow: none;
     box-shadow: none
 }
@@ -4463,10 +4458,10 @@ input[type=button].btn-block {
 }
 
 .custom-checkbox .custom-control-input:checked~.custom-control-label::before {
-    background: {{ site.color }} -webkit-gradient(linear, left top, left bottom, from(#4f7a9f), to({{ site.color }})) repeat-x;
-    background: {{ site.color }} -webkit-linear-gradient(top, #4f7a9f, {{ site.color }}) repeat-x;
-    background: {{ site.color }} -o-linear-gradient(top, #4f7a9f, {{ site.color }}) repeat-x;
-    background: {{ site.color }} linear-gradient(180deg, #4f7a9f, {{ site.color }}) repeat-x
+    background: #5FBFF9 -webkit-gradient(linear, left top, left bottom, from(#4f7a9f), to(#5FBFF9)) repeat-x;
+    background: #5FBFF9 -webkit-linear-gradient(top, #4f7a9f, #5FBFF9) repeat-x;
+    background: #5FBFF9 -o-linear-gradient(top, #4f7a9f, #5FBFF9) repeat-x;
+    background: #5FBFF9 linear-gradient(180deg, #4f7a9f, #5FBFF9) repeat-x
 }
 
 .custom-checkbox .custom-control-input:checked~.custom-control-label::after {
@@ -4474,10 +4469,10 @@ input[type=button].btn-block {
 }
 
 .custom-checkbox .custom-control-input:indeterminate~.custom-control-label::before {
-    background: {{ site.color }} -webkit-gradient(linear, left top, left bottom, from(#4f7a9f), to({{ site.color }})) repeat-x;
-    background: {{ site.color }} -webkit-linear-gradient(top, #4f7a9f, {{ site.color }}) repeat-x;
-    background: {{ site.color }} -o-linear-gradient(top, #4f7a9f, {{ site.color }}) repeat-x;
-    background: {{ site.color }} linear-gradient(180deg, #4f7a9f, {{ site.color }}) repeat-x;
+    background: #5FBFF9 -webkit-gradient(linear, left top, left bottom, from(#4f7a9f), to(#5FBFF9)) repeat-x;
+    background: #5FBFF9 -webkit-linear-gradient(top, #4f7a9f, #5FBFF9) repeat-x;
+    background: #5FBFF9 -o-linear-gradient(top, #4f7a9f, #5FBFF9) repeat-x;
+    background: #5FBFF9 linear-gradient(180deg, #4f7a9f, #5FBFF9) repeat-x;
     -webkit-box-shadow: none;
     box-shadow: none
 }
@@ -4499,10 +4494,10 @@ input[type=button].btn-block {
 }
 
 .custom-radio .custom-control-input:checked~.custom-control-label::before {
-    background: {{ site.color }} -webkit-gradient(linear, left top, left bottom, from(#4f7a9f), to({{ site.color }})) repeat-x;
-    background: {{ site.color }} -webkit-linear-gradient(top, #4f7a9f, {{ site.color }}) repeat-x;
-    background: {{ site.color }} -o-linear-gradient(top, #4f7a9f, {{ site.color }}) repeat-x;
-    background: {{ site.color }} linear-gradient(180deg, #4f7a9f, {{ site.color }}) repeat-x
+    background: #5FBFF9 -webkit-gradient(linear, left top, left bottom, from(#4f7a9f), to(#5FBFF9)) repeat-x;
+    background: #5FBFF9 -webkit-linear-gradient(top, #4f7a9f, #5FBFF9) repeat-x;
+    background: #5FBFF9 -o-linear-gradient(top, #4f7a9f, #5FBFF9) repeat-x;
+    background: #5FBFF9 linear-gradient(180deg, #4f7a9f, #5FBFF9) repeat-x
 }
 
 .custom-radio .custom-control-input:checked~.custom-control-label::after {
@@ -4687,9 +4682,9 @@ input[type=button].btn-block {
     width: 1rem;
     height: 1rem;
     margin-top: -.25rem;
-    background: {{ site.color }} -webkit-gradient(linear, left top, left bottom, from(#4f7a9f), to({{ site.color }})) repeat-x;
-    background: {{ site.color }} -webkit-linear-gradient(top, #4f7a9f, {{ site.color }}) repeat-x;
-    background: {{ site.color }} linear-gradient(180deg, #4f7a9f, {{ site.color }}) repeat-x;
+    background: #5FBFF9 -webkit-gradient(linear, left top, left bottom, from(#4f7a9f), to(#5FBFF9)) repeat-x;
+    background: #5FBFF9 -webkit-linear-gradient(top, #4f7a9f, #5FBFF9) repeat-x;
+    background: #5FBFF9 linear-gradient(180deg, #4f7a9f, #5FBFF9) repeat-x;
     border: 0;
     border-radius: 1rem;
     -webkit-box-shadow: 0 .1rem .25rem rgba(0, 0, 0, .1);
@@ -4732,7 +4727,7 @@ input[type=button].btn-block {
 .custom-range::-moz-range-thumb {
     width: 1rem;
     height: 1rem;
-    background: {{ site.color }} linear-gradient(180deg, #4f7a9f, {{ site.color }}) repeat-x;
+    background: #5FBFF9 linear-gradient(180deg, #4f7a9f, #5FBFF9) repeat-x;
     border: 0;
     border-radius: 1rem;
     box-shadow: 0 .1rem .25rem rgba(0, 0, 0, .1);
@@ -4774,7 +4769,7 @@ input[type=button].btn-block {
     margin-top: 0;
     margin-right: .2rem;
     margin-left: .2rem;
-    background: {{ site.color }} linear-gradient(180deg, #4f7a9f, {{ site.color }}) repeat-x;
+    background: #5FBFF9 linear-gradient(180deg, #4f7a9f, #5FBFF9) repeat-x;
     border: 0;
     border-radius: 1rem;
     box-shadow: 0 .1rem .25rem rgba(0, 0, 0, .1);
@@ -4912,7 +4907,7 @@ input[type=button].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
     color: #fff;
-    background-color: {{ site.color }}
+    background-color: #5FBFF9
 }
 
 .nav-fill .nav-item {
@@ -5884,7 +5879,7 @@ input[type=button].btn-block {
 .page-item.active .page-link {
     z-index: 1;
     color: #fff;
-    background-color: {{ site.color }};
+    background-color: #5FBFF9;
     border-color: #2a567b
 }
 
@@ -5959,7 +5954,7 @@ input[type=button].btn-block {
 
 .badge-primary {
     color: #fff;
-    background-color: {{ site.color }}
+    background-color: #5FBFF9
 }
 
 .badge-primary[href]:hover,
@@ -6294,7 +6289,7 @@ input[type=button].btn-block {
     color: #fff;
     text-align: center;
     white-space: nowrap;
-    background-color: {{ site.color }};
+    background-color: #5FBFF9;
     -webkit-transition: width .6s ease;
     -o-transition: width .6s ease;
     transition: width .6s ease
@@ -6407,8 +6402,8 @@ input[type=button].btn-block {
 .list-group-item.active {
     z-index: 2;
     color: #fff;
-    background-color: {{ site.color }};
-    border-color: {{ site.color }}
+    background-color: #5FBFF9;
+    border-color: #5FBFF9
 }
 
 .list-group-flush .list-group-item {
@@ -7439,7 +7434,7 @@ button.close {
 }
 
 .bg-primary {
-    background-color: {{ site.color }}!important
+    background-color: #5FBFF9!important
 }
 
 a.bg-primary:hover,
@@ -7535,10 +7530,10 @@ button.bg-dark:focus {
 }
 
 .bg-gradient-primary {
-    background: {{ site.color }} -webkit-gradient(linear, left top, left bottom, from(#4f7a9f), to({{ site.color }})) repeat-x!important;
-    background: {{ site.color }} -webkit-linear-gradient(top, #4f7a9f, {{ site.color }}) repeat-x!important;
-    background: {{ site.color }} -o-linear-gradient(top, #4f7a9f, {{ site.color }}) repeat-x!important;
-    background: {{ site.color }} linear-gradient(180deg, #4f7a9f, {{ site.color }}) repeat-x!important
+    background: #5FBFF9 -webkit-gradient(linear, left top, left bottom, from(#4f7a9f), to(#5FBFF9)) repeat-x!important;
+    background: #5FBFF9 -webkit-linear-gradient(top, #4f7a9f, #5FBFF9) repeat-x!important;
+    background: #5FBFF9 -o-linear-gradient(top, #4f7a9f, #5FBFF9) repeat-x!important;
+    background: #5FBFF9 linear-gradient(180deg, #4f7a9f, #5FBFF9) repeat-x!important
 }
 
 .bg-gradient-secondary {
@@ -7639,7 +7634,7 @@ button.bg-dark:focus {
 }
 
 .border-primary {
-    border-color: {{ site.color }}!important
+    border-color: #5FBFF9!important
 }
 
 .border-secondary {
@@ -10595,7 +10590,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-    color: {{ site.color }}!important
+    color: #5FBFF9!important
 }
 
 a.text-primary:hover,
@@ -15850,7 +15845,7 @@ a.text-dark:focus {
 
 .-bg-primary {
     color: #fff;
-    background-color: {{ site.color }}
+    background-color: #5FBFF9
 }
 
 .-bg-primary p>a {
@@ -15863,7 +15858,7 @@ a.text-dark:focus {
 }
 
 .-text-primary {
-    color: {{ site.color }}
+    color: #5FBFF9
 }
 
 .-bg-secondary {
@@ -16174,7 +16169,7 @@ a.text-dark:focus {
 
 .-bg-1 {
     color: #fff;
-    background-color: {{ site.color }}
+    background-color: #5FBFF9
 }
 
 .-bg-1 p>a {
@@ -16187,7 +16182,7 @@ a.text-dark:focus {
 }
 
 .-text-1 {
-    color: {{ site.color }}
+    color: #5FBFF9
 }
 
 .-bg-2 {
@@ -16336,7 +16331,7 @@ a.text-dark:focus {
 
 .-bg-10 {
     color: #fff;
-    background-color: {{ site.color }}
+    background-color: #5FBFF9
 }
 
 .-bg-10 p>a {
@@ -16349,7 +16344,7 @@ a.text-dark:focus {
 }
 
 .-text-10 {
-    color: {{ site.color }}
+    color: #5FBFF9
 }
 
 .-bg-11 {
@@ -16493,7 +16488,7 @@ a.text-dark:focus {
 
 .td-box--1 {
     color: #fff;
-    background-color: {{ site.color }}
+    background-color: #5FBFF9
 }
 
 .td-box--1 .td-arrow-down::before {
@@ -16502,7 +16497,7 @@ a.text-dark:focus {
     bottom: -25px;
     border-style: solid;
     border-width: 25px 30px 0;
-    border-color: {{ site.color }} transparent transparent transparent;
+    border-color: #5FBFF9 transparent transparent transparent;
     z-index: 3;
     position: absolute;
     content: ""
@@ -16518,10 +16513,10 @@ a.text-dark:focus {
 }
 
 .td-box--11.td-box--gradient {
-    background: {{ site.color }} -webkit-gradient(linear, left top, left bottom, from(#4f7a9f), to({{ site.color }})) repeat-x!important;
-    background: {{ site.color }} -webkit-linear-gradient(top, #4f7a9f, {{ site.color }}) repeat-x!important;
-    background: {{ site.color }} -o-linear-gradient(top, #4f7a9f, {{ site.color }}) repeat-x!important;
-    background: {{ site.color }} linear-gradient(180deg, #4f7a9f, {{ site.color }}) repeat-x!important
+    background: #5FBFF9 -webkit-gradient(linear, left top, left bottom, from(#4f7a9f), to(#5FBFF9)) repeat-x!important;
+    background: #5FBFF9 -webkit-linear-gradient(top, #4f7a9f, #5FBFF9) repeat-x!important;
+    background: #5FBFF9 -o-linear-gradient(top, #4f7a9f, #5FBFF9) repeat-x!important;
+    background: #5FBFF9 linear-gradient(180deg, #4f7a9f, #5FBFF9) repeat-x!important
 }
 
 .td-box--2 {
@@ -16790,7 +16785,7 @@ a.text-dark:focus {
 
 .td-box--10 {
     color: #fff;
-    background-color: {{ site.color }}
+    background-color: #5FBFF9
 }
 
 .td-box--10 .td-arrow-down::before {
@@ -16799,7 +16794,7 @@ a.text-dark:focus {
     bottom: -25px;
     border-style: solid;
     border-width: 25px 30px 0;
-    border-color: {{ site.color }} transparent transparent transparent;
+    border-color: #5FBFF9 transparent transparent transparent;
     z-index: 3;
     position: absolute;
     content: ""
@@ -16815,10 +16810,10 @@ a.text-dark:focus {
 }
 
 .td-box--110.td-box--gradient {
-    background: {{ site.color }} -webkit-gradient(linear, left top, left bottom, from(#4f7a9f), to({{ site.color }})) repeat-x!important;
-    background: {{ site.color }} -webkit-linear-gradient(top, #4f7a9f, {{ site.color }}) repeat-x!important;
-    background: {{ site.color }} -o-linear-gradient(top, #4f7a9f, {{ site.color }}) repeat-x!important;
-    background: {{ site.color }} linear-gradient(180deg, #4f7a9f, {{ site.color }}) repeat-x!important
+    background: #5FBFF9 -webkit-gradient(linear, left top, left bottom, from(#4f7a9f), to(#5FBFF9)) repeat-x!important;
+    background: #5FBFF9 -webkit-linear-gradient(top, #4f7a9f, #5FBFF9) repeat-x!important;
+    background: #5FBFF9 -o-linear-gradient(top, #4f7a9f, #5FBFF9) repeat-x!important;
+    background: #5FBFF9 linear-gradient(180deg, #4f7a9f, #5FBFF9) repeat-x!important
 }
 
 .td-box--11 {
@@ -17351,7 +17346,7 @@ a.text-dark:focus {
 
 .td-box--primary {
     color: #fff;
-    background-color: {{ site.color }}
+    background-color: #5FBFF9
 }
 
 .td-box--primary .td-arrow-down::before {
@@ -17360,7 +17355,7 @@ a.text-dark:focus {
     bottom: -25px;
     border-style: solid;
     border-width: 25px 30px 0;
-    border-color: {{ site.color }} transparent transparent transparent;
+    border-color: #5FBFF9 transparent transparent transparent;
     z-index: 3;
     position: absolute;
     content: ""
@@ -17376,10 +17371,10 @@ a.text-dark:focus {
 }
 
 .td-box--1primary.td-box--gradient {
-    background: {{ site.color }} -webkit-gradient(linear, left top, left bottom, from(#4f7a9f), to({{ site.color }})) repeat-x!important;
-    background: {{ site.color }} -webkit-linear-gradient(top, #4f7a9f, {{ site.color }}) repeat-x!important;
-    background: {{ site.color }} -o-linear-gradient(top, #4f7a9f, {{ site.color }}) repeat-x!important;
-    background: {{ site.color }} linear-gradient(180deg, #4f7a9f, {{ site.color }}) repeat-x!important
+    background: #5FBFF9 -webkit-gradient(linear, left top, left bottom, from(#4f7a9f), to(#5FBFF9)) repeat-x!important;
+    background: #5FBFF9 -webkit-linear-gradient(top, #4f7a9f, #5FBFF9) repeat-x!important;
+    background: #5FBFF9 -o-linear-gradient(top, #4f7a9f, #5FBFF9) repeat-x!important;
+    background: #5FBFF9 linear-gradient(180deg, #4f7a9f, #5FBFF9) repeat-x!important
 }
 
 .td-box--secondary {
@@ -17967,7 +17962,7 @@ a.text-dark:focus {
 }
 
 .td-navbar-cover {
-    background: {{ site.color }}
+    background: #5FBFF9
 }
 
 @media(min-width:768px) {
@@ -17984,12 +17979,12 @@ a.text-dark:focus {
 }
 
 .navbar-bg-onscroll {
-    background: {{ site.color }}!important;
+    background: #5FBFF9!important;
     opacity: inherit
 }
 
 .td-navbar {
-    background: {{ site.color }};
+    background: #5FBFF9;
     min-height: 4rem;
     margin: 0;
     z-index: 32
@@ -18322,12 +18317,12 @@ html body .md-typeset .headerlink {
 
 .alert-primary {
     border-style: solid;
-    border-color: {{ site.color }};
+    border-color: #5FBFF9;
     border-width: 0 0 0 4px
 }
 
 .alert-primary .alert-heading {
-    color: {{ site.color }}
+    color: #5FBFF9
 }
 
 .alert-secondary {
@@ -18442,7 +18437,7 @@ html body .md-typeset .headerlink {
     padding: 0 0 0 1rem;
     margin-bottom: 1rem;
     color: #888;
-    border-left: 6px solid {{ site.color }}
+    border-left: 6px solid #5FBFF9
 }
 
 .td-content>ul li,
@@ -18595,7 +18590,7 @@ html body .md-typeset .headerlink {
 
 .pageinfo-primary {
     border-style: solid;
-    border-color: {{ site.color }}
+    border-color: #5FBFF9
 }
 
 .pageinfo-secondary {
